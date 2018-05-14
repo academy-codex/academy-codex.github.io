@@ -41,7 +41,7 @@ h1 span{
 
 .logo{
     height: 60px !important;
-    width: 160px !important;
+    width: 180px !important;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
@@ -357,7 +357,7 @@ fieldset[disabled] .s-btn {
 ------------------------------------*/
 .s-clients-v1 {
   display: block;
-  width: 6.25rem;
+  width: 10rem;
   height: auto;
   margin: 0 auto;
   opacity: 1;
