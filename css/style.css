@@ -22,7 +22,27 @@ body {
   background-color: #fff;
 }
 
+.header-content{
+    margin-top: -20px;
+}
 /* Typography */
+.lol h1{
+    color: white;
+    margin-top: 45px;
+    font-size: 60px;
+
+}
+
+h1 span{
+    color: #1095ac;
+    margin-top: 20px;
+    font-weight: 100 !important;
+}
+
+.logo{
+    height: 60px !important;
+    width: 160px !important;
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   font-family: Montserrat, sans-serif;
@@ -1176,8 +1196,6 @@ fieldset[disabled] .s-btn {
 .s-header__logo {
   position: relative;
   z-index: 9999;
-  width: 100%;
-  height: auto;
   float: left;
 }
 
@@ -1230,6 +1248,18 @@ fieldset[disabled] .s-btn {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+.ulist li{
+    float: right;
+}
+
+.ulist a{
+    color: #fff;
+    display: block;
+    padding: 16px;
+}
+.ulist{
+ list-style-type: none;
+}
 /* Trigger Icon */
 .s-header__trigger-icon {
   position: absolute;
@@ -1614,6 +1644,14 @@ fieldset[disabled] .s-btn {
 
 .s-header__shrink .s-header__navbar {
   background: #fff;
+}
+
+.s-header__shrink .s-header__navbar .ulist a{
+    color: rgba(0,0,0,0.7);
+}
+
+.s-header__shrink .s-header__navbar .ulist a:hover{
+    color: rgba(0,0,0,1);
 }
 
 .s-header__shrink .s-header__logo-img-default {
