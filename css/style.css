@@ -23,7 +23,7 @@ body {
 }
 
   #mob-nav{
-    display: none !important;
+    display: none;
   }
 
 @media only screen and (max-width: 780px){
