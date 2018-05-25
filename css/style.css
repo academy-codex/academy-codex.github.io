@@ -22,11 +22,9 @@ body {
   background-color: #fff;
 }
 
-@media only screen and (min-width: 781px){
   #mob-nav{
     display: none !important;
   }
-}
 
 @media only screen and (max-width: 780px){
   #mob-nav{
