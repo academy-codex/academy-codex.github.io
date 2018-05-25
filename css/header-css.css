@@ -43,7 +43,7 @@
 	.st35{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
 
 .lol{
-    background: url(space.png);
+    background: url("space.png");
     background-color: black !important;
     height: 100vh;
 }
