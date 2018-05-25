@@ -22,9 +22,13 @@ body {
   background-color: #fff;
 }
 
+  #mob-nav{
+    display: none !important;
+  }
+
 @media only screen and (max-width: 780px){
   #mob-nav{
-    display: block;
+    display: block !important;
   }
 
   #main-nav{
